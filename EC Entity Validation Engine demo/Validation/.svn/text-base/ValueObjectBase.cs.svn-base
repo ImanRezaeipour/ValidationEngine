@@ -1,0 +1,50 @@
+﻿// --------------------------------------------------------------------------------------------------------------------
+// <copyright file="ValueObjectBase.cs" company="ExcitingCode">
+//    Demo application of simple Business Rule Engine. All code is free to use as it is, but use it on your own risk.
+// </copyright>
+// <summary>
+//   Defines the ValueObject type.
+// </summary>
+// --------------------------------------------------------------------------------------------------------------------
+
+using System;
+
+namespace EC.EntityValidationEngine.Validation
+{
+    /// <summary>
+    /// Abstract base class for the value objects. 
+    /// </summary>
+    public abstract class ValueObjectBase
+    {
+        /// <summary>
+        /// A value object equals when the data matches. Check all the data that objects contains to check if it is the same.
+        /// </summary>
+        /// <param name="obj">
+        /// The object to match.
+        /// </param>
+        /// <returns>
+        /// True if the data matches.
+        /// </returns>
+        /// <exception cref="NotImplementedException">
+        /// This is base template method and does not contain the implementation.
+        /// </exception>
+        public override bool Equals(object obj)
+        {
+            throw new NotImplementedException("Implement Equals override.");
+        }
+
+        /// <summary>
+        /// When overriding the Equals method, the GetHashCode have to be overrided too.
+        /// </summary>
+        /// <returns>
+        /// Hash code as integer.
+        /// </returns>
+        /// <exception cref="NotImplementedException">
+        /// This is base template method and does not contain the implementation.
+        /// </exception>
+        public override int GetHashCode()
+        {
+            throw new NotImplementedException("Implement GetHasCode override.");
+        }
+    }
+}

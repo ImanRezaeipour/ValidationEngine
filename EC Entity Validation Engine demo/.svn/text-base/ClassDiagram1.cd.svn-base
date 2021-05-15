@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="EC.EntityValidationEngine.Validation.ErrorObject" BaseTypeListCollapsed="true">
+    <Position X="6.75" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>IQAACAAAAAAAAAAAABAAAKAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Validation\ErrorObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EC.EntityValidationEngine.Validation.ValidatableObjectBase">
+    <Position X="1" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAQgAAABAAAAAAAAAAEAAAAAAAQAgAA=</HashCode>
+      <FileName>Validation\ValidatableObjectBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EC.EntityValidationEngine.Validation.ValidationRuleBase" BaseTypeListCollapsed="true">
+    <Position X="3.75" Y="1.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABCAAAAAAAAAAAAAAAAAgAAAAAAAAABAAAA=</HashCode>
+      <FileName>Validation\ValidationRuleBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="EC.EntityValidationEngine.Validation.IErrorObject" Collapsed="true">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAACAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Validation\IErrorObject.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="EC.EntityValidationEngine.Validation.IValidationRule" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAgAAAAAAAAABAAAA=</HashCode>
+      <FileName>Validation\IValidationRule.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

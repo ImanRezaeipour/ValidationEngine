@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="5a6a197a-83ef-431d-8afc-a44f28a5246e" name="Caje@CAJENMINI 2010-11-18 15:29:42" runUser="CajenMini\Caje" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="74c20c05-f50f-4bcf-9ac8-c4ec1b633eca">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Caje_CAJENMINI 2010-11-18 15_29_42" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-11-18T15:29:42.7016728+02:00" queuing="2010-11-18T15:29:43.3727112+02:00" start="2010-11-18T15:29:43.9387436+02:00" finish="2010-11-18T15:29:45.8138508+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="23" executed="23" passed="19" error="0" failed="4" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Validate_Identity_type_of_guid_with_generated_guid_validation_should_be_valid" storage="d:\development\excitingcode\ec entity validation engine demo\validationenginetests\bin\debug\validationenginetests.dll" id="c85756af-d8df-309a-718b-1db3cb2f0957">
+      <Execution timeOut="1800000" id="47dfdcb0-cd78-4eb3-ae93-e00ebc8e7631" />
+      <TestMethod codeBase="D:/Development/ExcitingCode/EC Entity Validation Engine demo/ValidationEngineTests/bin/Debug/ValidationEngineTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ValidationEngineTests.Validation.BusinessRules.IdentityValidationRuleTest, ValidationEngineTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Validate_Identity_type_of_guid_with_generated_guid_validation_should_be_valid" />
+    </UnitTest>
+    <UnitTest name="Validate_Identity_type_of_guid_with_empty_guid_validation_should_be_invalid" storage="d:\development\excitingcode\ec entity validation engine demo\validationenginetests\bin\debug\validationenginetests.dll" id="2b1f701b-dcc5-79a3-5f1b-3f8b88617b22">
+      <Execution timeOut="1800000" id="2f49ff5e-1bf3-494c-8584-3af74e9d6a72" />
+      <TestMethod codeBase="D:/Development/ExcitingCode/EC Entity Validation Engine demo/ValidationEngineTests/bin/Debug/ValidationEngineTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ValidationEngineTests.Validation.BusinessRules.IdentityValidationRuleTest, ValidationEngineTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Validate_Identity_type_of_guid_with_empty_guid_validation_should_be_invalid" />
+    </UnitTest>
+    <UnitTest name="Validate_property_by_name_with_positive_integer_should_be_valid" storage="d:\development\excitingcode\ec entity validation engine demo\validationenginetests\bin\debug\validationenginetests.dll" id="2e9453f1-a56e-4022-9115-f9b55d663bb8">
+      <Execution timeOut="1800000" id="3d277f7b-2cf9-4baf-8d76-9f4198a083a9" />
+      <TestMethod codeBase="D:/Development/ExcitingCode/EC Entity Validation Engine demo/ValidationEngineTests/bin/Debug/ValidationEngineTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ValidationEngineTests.BusinessObjects.CustomerEntityTest, ValidationEngineTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Validate_property_by_name_with_positive_integer_should_be_valid" />
+    </UnitTest>
+    <UnitTest name="Validate_business_entitys_Name_property_without_business_rule_attached_to_it_should_be_valid" storage="d:\development\excitingcode\ec entity validation engine demo\validationenginetests\bin\debug\validationenginetests.dll" id="ca18ef9f-2acd-41f6-d6c0-d19c0f3c53f0">
+      <Execution timeOut="1800000" id="8c601833-ee16-4d3d-8f16-af63a00e70f1" />
+      <TestMethod codeBase="D:/Development/ExcitingCode/EC Entity Validation Engine demo/ValidationEngineTests/bin/Debug/ValidationEngineTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ValidationEngineTests.Validation.ValidableObjectBaseTest, ValidationEngineTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Validate_business_entitys_Name_property_without_business_rule_attached_to_it_should_be_valid" />
+    </UnitTest>
+    <UnitTest name="Validate_Identity_type_of_integer_with_0_value_validation_should_be_valid" storage="d:\development\excitingcode\ec entity validation engine demo\validationenginetests\bin\debug\validationenginetests.dll" id="8be068d6-4645-00ea-3854-df9a2dc75d10">
+      <Execution timeOut="1800000" id="8dee4ec3-421c-4eb5-a6ba-5bf57dd343e1" />
+      <TestMethod codeBase="D:/Development/ExcitingCode/EC Entity Validation Engine demo/ValidationEngineTests/bin/Debug/ValidationEngineTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ValidationEngineTests.Validation.BusinessRules.IdentityValidationRuleTest, ValidationEngineTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Validate_Identity_type_of_integer_with_0_value_validation_should_be_valid" />
+    </UnitTest>
+    <UnitTest name="Get_detailed_error_message_with_custom_message_should_return_defined_custom_message" storage="d:\development\excitingcode\ec entity validation engine demo\validationenginetests\bin\debug\validationenginetests.dll" id="585bace6-6844-f6af-5cfe-21dcab184ffd">
+      <Execution timeOut="1800000" id="2c9d3ade-4b5e-4003-a3bf-72aba5279f02" />
+      <TestMethod codeBase="D:/Development/ExcitingCode/EC Entity Validation Engine demo/ValidationEngineTests/bin/Debug/ValidationEngineTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ValidationEngineTests.Validation.ErrorObjectTest, ValidationEngineTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Get_detailed_error_message_with_custom_message_should_return_defined_custom_message" />
+    </UnitTest>
+    <UnitTest name="Validate_property_by_name_with_zero_should_be_valid" storage="d:\development\excitingcode\ec entity validation engine demo\validationenginetests\bin\debug\validationenginetests.dll" id="dc5215bc-e70d-f9e5-a6e2-efba78fa7dca">
+      <Execution timeOut="1800000" id="fd982564-59e7-440d-a952-ac840910aadc" />
+      <TestMethod codeBase="D:/Development/ExcitingCode/EC Entity Validation Engine demo/ValidationEngineTests/bin/Debug/ValidationEngineTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ValidationEngineTests.BusinessObjects.CustomerEntityTest, ValidationEngineTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Validate_property_by_name_with_zero_should_be_valid" />
+    </UnitTest>
+    <UnitTest name="Validate_empty_property_type_of_string_with_any_value_should_be_invalid" storage="d:\development\excitingcode\ec entity validation engine demo\validationenginetests\bin\debug\validationenginetests.dll" id="428a0973-3a79-a17c-d810-a7d77f163454">
+      <Execution timeOut="1800000" id="578ba36f-7daa-4536-8ef4-df9378f51d57" />
+      <TestMethod codeBase="D:/Development/ExcitingCode/EC Entity Validation Engine demo/ValidationEngineTests/bin/Debug/ValidationEngineTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ValidationEngineTests.Validation.BusinessRules.RegexValidationRuleTest, ValidationEngineTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Validate_empty_property_type_of_string_with_any_value_should_be_invalid" />
+    </UnitTest>
+    <UnitTest name="Validate_business_entitys_ID_property_with_mocked_validation_rule_should_be_valid" storage="d:\development\excitingcode\ec entity validation engine demo\validationenginetests\bin\debug\validationenginetests.dll" id="5ab84a24-a2b8-c1c0-dc44-d63064ed191c">
+      <Execution timeOut="1800000" id="9c3a027c-a22f-48d8-862c-e94f7a21f55e" />
+      <TestMethod codeBase="D:/Development/ExcitingCode/EC Entity Validation Engine demo/ValidationEngineTests/bin/Debug/ValidationEngineTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ValidationEngineTests.Validation.ValidableObjectBaseTest, ValidationEngineTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Validate_business_entitys_ID_property_with_mocked_validation_rule_should_be_valid" />
+    </UnitTest>
+    <UnitTest name="Get_detailer_error_message_with_default_error_message" storage="d:\development\excitingcode\ec entity validation engine demo\validationenginetests\bin\debug\validationenginetests.dll" id="a3b68e13-b1a2-2ab1-0624-177a6558a465">
+      <Execution timeOut="1800000" id="6eee87fe-fdba-4c90-a828-c388158bb5e2" />
+      <TestMethod codeBase="D:/Development/ExcitingCode/EC Entity Validation Engine demo/ValidationEngineTests/bin/Debug/ValidationEngineTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ValidationEngineTests.Validation.ErrorObjectTest, ValidationEngineTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Get_detailer_error_message_with_default_error_message" />
+    </UnitTest>
+    <UnitTest name="Validate_business_entitys_Id_property_with_mocked_validation_rule_should_be_invalid_and_new_validation_error_should_be_added_to_the_entity" storage="d:\development\excitingcode\ec entity validation engine demo\validationenginetests\bin\debug\validationenginetests.dll" id="16af2272-5959-6399-6a7e-40f5cd01cff4">
+      <Execution timeOut="1800000" id="a7710215-c6c9-4279-a3da-45613f32a17f" />
+      <TestMethod codeBase="D:/Development/ExcitingCode/EC Entity Validation Engine demo/ValidationEngineTests/bin/Debug/ValidationEngineTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ValidationEngineTests.Validation.ValidableObjectBaseTest, ValidationEngineTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Validate_business_entitys_Id_property_with_mocked_validation_rule_should_be_invalid_and_new_validation_error_should_be_added_to_the_entity" />
+    </UnitTest>
+    <UnitTest name="Validate_empty_property_type_of_string_with_empty_expression_should_be_invalid" storage="d:\development\excitingcode\ec entity validation engine demo\validationenginetests\bin\debug\validationenginetests.dll" id="7771b7ca-1f26-c65b-0242-1406562d444a">
+      <Execution timeOut="1800000" id="5dd28744-0544-4c44-875b-8946abbda179" />
+      <TestMethod codeBase="D:/Development/ExcitingCode/EC Entity Validation Engine demo/ValidationEngineTests/bin/Debug/ValidationEngineTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ValidationEngineTests.Validation.BusinessRules.RegexValidationRuleTest, ValidationEngineTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Validate_empty_property_type_of_string_with_empty_expression_should_be_invalid" />
+    </UnitTest>
+    <UnitTest name="Add_new_rule_to_entity_and_it_is_attached_to_rule_list" storage="d:\development\excitingcode\ec entity validation engine demo\validationenginetests\bin\debug\validationenginetests.dll" id="175a2262-5f6b-035b-0689-c77700c4b2af">
+      <Execution timeOut="1800000" id="693951ba-61a5-4137-83a3-551c31016c45" />
+      <TestMethod codeBase="D:/Development/ExcitingCode/EC Entity Validation Engine demo/ValidationEngineTests/bin/Debug/ValidationEngineTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ValidationEngineTests.Validation.ValidableObjectBaseTest, ValidationEngineTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Add_new_rule_to_entity_and_it_is_attached_to_rule_list" />
+    </UnitTest>
+    <UnitTest name="Validate_property_type_of_string_with_empty_expression_should_be_invalid" storage="d:\development\excitingcode\ec entity validation engine demo\validationenginetests\bin\debug\validationenginetests.dll" id="2a3ed8ce-e9b2-d37a-a29a-ca2b7c0638d6">
+      <Execution timeOut="1800000" id="0b3606e7-3df9-44e7-a697-25cf376c7e93" />
+      <TestMethod codeBase="D:/Development/ExcitingCode/EC Entity Validation Engine demo/ValidationEngineTests/bin/Debug/ValidationEngineTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ValidationEngineTests.Validation.BusinessRules.RegexValidationRuleTest, ValidationEngineTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Validate_property_type_of_string_with_empty_expression_should_be_invalid" />
+    </UnitTest>
+    <UnitTest name="Validate_with_positive_integer_should_be_valid" storage="d:\development\excitingcode\ec entity validation engine demo\validationenginetests\bin\debug\validationenginetests.dll" id="4ee4bdbf-3fb2-9b9e-9045-b784ad7764ec">
+      <Execution timeOut="1800000" id="3b0bf03b-a557-413c-9795-3c4614df8ffe" />
+      <TestMethod codeBase="D:/Development/ExcitingCode/EC Entity Validation Engine demo/ValidationEngineTests/bin/Debug/ValidationEngineTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ValidationEngineTests.BusinessObjects.CustomerEntityTest, ValidationEngineTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Validate_with_positive_integer_should_be_valid" />
+    </UnitTest>
+    <UnitTest name="Validate_Identity_type_of_integer_with_negative_value_validation_should_return_be_invalid" storage="d:\development\excitingcode\ec entity validation engine demo\validationenginetests\bin\debug\validationenginetests.dll" id="1b05c7be-991f-7138-4ea7-1bf9c9cd13a5">
+      <Execution timeOut="1800000" id="27f02f1d-001d-4e48-9404-6b5b9074d941" />
+      <TestMethod codeBase="D:/Development/ExcitingCode/EC Entity Validation Engine demo/ValidationEngineTests/bin/Debug/ValidationEngineTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ValidationEngineTests.Validation.BusinessRules.IdentityValidationRuleTest, ValidationEngineTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Validate_Identity_type_of_integer_with_negative_value_validation_should_return_be_invalid" />
+    </UnitTest>
+    <UnitTest name="Validate_Identity_type_of_integer_with_postive_value_validation_should_be_valid" storage="d:\development\excitingcode\ec entity validation engine demo\validationenginetests\bin\debug\validationenginetests.dll" id="d48827ce-85ae-a1ab-89c8-074dbccd0ab5">
+      <Execution timeOut="1800000" id="e2e148b0-3326-4754-ab09-6b0367fdf718" />
+      <TestMethod codeBase="D:/Development/ExcitingCode/EC Entity Validation Engine demo/ValidationEngineTests/bin/Debug/ValidationEngineTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ValidationEngineTests.Validation.BusinessRules.IdentityValidationRuleTest, ValidationEngineTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Validate_Identity_type_of_integer_with_postive_value_validation_should_be_valid" />
+    </UnitTest>
+    <UnitTest name="Validate_business_entity_with_mocked_validation_rule_should_be_valid" storage="d:\development\excitingcode\ec entity validation engine demo\validationenginetests\bin\debug\validationenginetests.dll" id="abb2acfb-de92-0280-d1cd-8dc4ac1cc3c6">
+      <Execution timeOut="1800000" id="53916fbc-76df-4e9b-b3ed-0ab3bed65e89" />
+      <TestMethod codeBase="D:/Development/ExcitingCode/EC Entity Validation Engine demo/ValidationEngineTests/bin/Debug/ValidationEngineTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ValidationEngineTests.Validation.ValidableObjectBaseTest, ValidationEngineTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Validate_business_entity_with_mocked_validation_rule_should_be_valid" />
+    </UnitTest>
+    <UnitTest name="Validate_business_entity_with_mocked_validation_rule_should_be_invalid_and_new_validation_error_should_be_added_to_the_entity" storage="d:\development\excitingcode\ec entity validation engine demo\validationenginetests\bin\debug\validationenginetests.dll" id="bf2e6db4-e816-74eb-de61-c5d12281291a">
+      <Execution timeOut="1800000" id="7f0354c1-3879-40d3-9c6b-f7037857c50a" />
+      <TestMethod codeBase="D:/Development/ExcitingCode/EC Entity Validation Engine demo/ValidationEngineTests/bin/Debug/ValidationEngineTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ValidationEngineTests.Validation.ValidableObjectBaseTest, ValidationEngineTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Validate_business_entity_with_mocked_validation_rule_should_be_invalid_and_new_validation_error_should_be_added_to_the_entity" />
+    </UnitTest>
+    <UnitTest name="Validate_property_by_name_with_negative_integer_should_be_invalid" storage="d:\development\excitingcode\ec entity validation engine demo\validationenginetests\bin\debug\validationenginetests.dll" id="a1a13cff-fde0-c516-bf6d-c6adc6a5cb6b">
+      <Execution timeOut="1800000" id="37374224-82f1-4cfb-a204-45085745761d" />
+      <TestMethod codeBase="D:/Development/ExcitingCode/EC Entity Validation Engine demo/ValidationEngineTests/bin/Debug/ValidationEngineTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ValidationEngineTests.BusinessObjects.CustomerEntityTest, ValidationEngineTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Validate_property_by_name_with_negative_integer_should_be_invalid" />
+    </UnitTest>
+    <UnitTest name="Validate_property_type_of_string_with_any_value_should_be_valid" storage="d:\development\excitingcode\ec entity validation engine demo\validationenginetests\bin\debug\validationenginetests.dll" id="28338078-4d35-b7ed-4447-2b91687f6a97">
+      <Execution timeOut="1800000" id="5786f069-a00e-44db-8ba5-a47879959545" />
+      <TestMethod codeBase="D:/Development/ExcitingCode/EC Entity Validation Engine demo/ValidationEngineTests/bin/Debug/ValidationEngineTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ValidationEngineTests.Validation.BusinessRules.RegexValidationRuleTest, ValidationEngineTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Validate_property_type_of_string_with_any_value_should_be_valid" />
+    </UnitTest>
+    <UnitTest name="Validate_with_negative_integer_should_be_invalid" storage="d:\development\excitingcode\ec entity validation engine demo\validationenginetests\bin\debug\validationenginetests.dll" id="0999911f-b63f-b651-77d2-ac6439ca1f0e">
+      <Execution timeOut="1800000" id="d8f9e82e-fd62-45c7-9c90-021d9a158dd6" />
+      <TestMethod codeBase="D:/Development/ExcitingCode/EC Entity Validation Engine demo/ValidationEngineTests/bin/Debug/ValidationEngineTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ValidationEngineTests.BusinessObjects.CustomerEntityTest, ValidationEngineTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Validate_with_negative_integer_should_be_invalid" />
+    </UnitTest>
+    <UnitTest name="Validate_with_zero_should_be_valid" storage="d:\development\excitingcode\ec entity validation engine demo\validationenginetests\bin\debug\validationenginetests.dll" id="4ec799e2-1c8e-3017-d90f-30d351e22019">
+      <Execution timeOut="1800000" id="959f5b4c-8001-4b64-a7ab-92b38522b5ac" />
+      <TestMethod codeBase="D:/Development/ExcitingCode/EC Entity Validation Engine demo/ValidationEngineTests/bin/Debug/ValidationEngineTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ValidationEngineTests.BusinessObjects.CustomerEntityTest, ValidationEngineTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Validate_with_zero_should_be_valid" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="a1a13cff-fde0-c516-bf6d-c6adc6a5cb6b" executionId="37374224-82f1-4cfb-a204-45085745761d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2e9453f1-a56e-4022-9115-f9b55d663bb8" executionId="3d277f7b-2cf9-4baf-8d76-9f4198a083a9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dc5215bc-e70d-f9e5-a6e2-efba78fa7dca" executionId="fd982564-59e7-440d-a952-ac840910aadc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0999911f-b63f-b651-77d2-ac6439ca1f0e" executionId="d8f9e82e-fd62-45c7-9c90-021d9a158dd6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4ee4bdbf-3fb2-9b9e-9045-b784ad7764ec" executionId="3b0bf03b-a557-413c-9795-3c4614df8ffe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4ec799e2-1c8e-3017-d90f-30d351e22019" executionId="959f5b4c-8001-4b64-a7ab-92b38522b5ac" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2b1f701b-dcc5-79a3-5f1b-3f8b88617b22" executionId="2f49ff5e-1bf3-494c-8584-3af74e9d6a72" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c85756af-d8df-309a-718b-1db3cb2f0957" executionId="47dfdcb0-cd78-4eb3-ae93-e00ebc8e7631" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8be068d6-4645-00ea-3854-df9a2dc75d10" executionId="8dee4ec3-421c-4eb5-a6ba-5bf57dd343e1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1b05c7be-991f-7138-4ea7-1bf9c9cd13a5" executionId="27f02f1d-001d-4e48-9404-6b5b9074d941" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d48827ce-85ae-a1ab-89c8-074dbccd0ab5" executionId="e2e148b0-3326-4754-ab09-6b0367fdf718" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="428a0973-3a79-a17c-d810-a7d77f163454" executionId="578ba36f-7daa-4536-8ef4-df9378f51d57" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7771b7ca-1f26-c65b-0242-1406562d444a" executionId="5dd28744-0544-4c44-875b-8946abbda179" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="28338078-4d35-b7ed-4447-2b91687f6a97" executionId="5786f069-a00e-44db-8ba5-a47879959545" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2a3ed8ce-e9b2-d37a-a29a-ca2b7c0638d6" executionId="0b3606e7-3df9-44e7-a697-25cf376c7e93" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="585bace6-6844-f6af-5cfe-21dcab184ffd" executionId="2c9d3ade-4b5e-4003-a3bf-72aba5279f02" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a3b68e13-b1a2-2ab1-0624-177a6558a465" executionId="6eee87fe-fdba-4c90-a828-c388158bb5e2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="175a2262-5f6b-035b-0689-c77700c4b2af" executionId="693951ba-61a5-4137-83a3-551c31016c45" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bf2e6db4-e816-74eb-de61-c5d12281291a" executionId="7f0354c1-3879-40d3-9c6b-f7037857c50a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="abb2acfb-de92-0280-d1cd-8dc4ac1cc3c6" executionId="53916fbc-76df-4e9b-b3ed-0ab3bed65e89" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="16af2272-5959-6399-6a7e-40f5cd01cff4" executionId="a7710215-c6c9-4279-a3da-45613f32a17f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5ab84a24-a2b8-c1c0-dc44-d63064ed191c" executionId="9c3a027c-a22f-48d8-862c-e94f7a21f55e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ca18ef9f-2acd-41f6-d6c0-d19c0f3c53f0" executionId="8c601833-ee16-4d3d-8f16-af63a00e70f1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="37374224-82f1-4cfb-a204-45085745761d" testId="a1a13cff-fde0-c516-bf6d-c6adc6a5cb6b" testName="Validate_property_by_name_with_negative_integer_should_be_invalid" computerName="CAJENMINI" duration="00:00:00.0665989" startTime="2010-11-18T15:29:44.2557617+02:00" endTime="2010-11-18T15:29:44.4497728+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="37374224-82f1-4cfb-a204-45085745761d">
+      <Output>
+        <DebugTrace>System.NullReferenceException: Object reference not set to an instance of an object.
+   at EC.EntityValidationEngine.Validation.ValidationRuleBase.GetPropertyValue(ValidatableObjectBase businessObject) in D:\Development\ExcitingCode\EC Entity Validation Engine demo\EC Entity Validation Engine demo\Validation\ValidationRuleBase.cs:line 79
+   at EC.EntityValidationEngine.Validation.BusinessRules.IdentityValidationRule.Validate(ValidatableObjectBase businessObject) in D:\Development\ExcitingCode\EC Entity Validation Engine demo\EC Entity Validation Engine demo\Validation\BusinessRules\IdentityValidationRule.cs:line 44
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3d277f7b-2cf9-4baf-8d76-9f4198a083a9" testId="2e9453f1-a56e-4022-9115-f9b55d663bb8" testName="Validate_property_by_name_with_positive_integer_should_be_valid" computerName="CAJENMINI" duration="00:00:00.0647732" startTime="2010-11-18T15:29:44.4547731+02:00" endTime="2010-11-18T15:29:44.5247771+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3d277f7b-2cf9-4baf-8d76-9f4198a083a9">
+      <Output>
+        <DebugTrace>System.NullReferenceException: Object reference not set to an instance of an object.
+   at EC.EntityValidationEngine.Validation.ValidationRuleBase.GetPropertyValue(ValidatableObjectBase businessObject) in D:\Development\ExcitingCode\EC Entity Validation Engine demo\EC Entity Validation Engine demo\Validation\ValidationRuleBase.cs:line 79
+   at EC.EntityValidationEngine.Validation.BusinessRules.IdentityValidationRule.Validate(ValidatableObjectBase businessObject) in D:\Development\ExcitingCode\EC Entity Validation Engine demo\EC Entity Validation Engine demo\Validation\BusinessRules\IdentityValidationRule.cs:line 44
+</DebugTrace>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. </Message>
+          <StackTrace>   at ValidationEngineTests.BusinessObjects.CustomerEntityTest.Validate_property_by_name_with_positive_integer_should_be_valid() in D:\Development\ExcitingCode\EC Entity Validation Engine demo\ValidationEngineTests\BusinessObjects\CustomerEntityTest.cs:line 24
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fd982564-59e7-440d-a952-ac840910aadc" testId="dc5215bc-e70d-f9e5-a6e2-efba78fa7dca" testName="Validate_property_by_name_with_zero_should_be_valid" computerName="CAJENMINI" duration="00:00:00.0434338" startTime="2010-11-18T15:29:44.5457783+02:00" endTime="2010-11-18T15:29:44.5907808+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fd982564-59e7-440d-a952-ac840910aadc">
+      <Output>
+        <DebugTrace>System.NullReferenceException: Object reference not set to an instance of an object.
+   at EC.EntityValidationEngine.Validation.ValidationRuleBase.GetPropertyValue(ValidatableObjectBase businessObject) in D:\Development\ExcitingCode\EC Entity Validation Engine demo\EC Entity Validation Engine demo\Validation\ValidationRuleBase.cs:line 79
+   at EC.EntityValidationEngine.Validation.BusinessRules.IdentityValidationRule.Validate(ValidatableObjectBase businessObject) in D:\Development\ExcitingCode\EC Entity Validation Engine demo\EC Entity Validation Engine demo\Validation\BusinessRules\IdentityValidationRule.cs:line 44
+</DebugTrace>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. </Message>
+          <StackTrace>   at ValidationEngineTests.BusinessObjects.CustomerEntityTest.Validate_property_by_name_with_zero_should_be_valid() in D:\Development\ExcitingCode\EC Entity Validation Engine demo\ValidationEngineTests\BusinessObjects\CustomerEntityTest.cs:line 58
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d8f9e82e-fd62-45c7-9c90-021d9a158dd6" testId="0999911f-b63f-b651-77d2-ac6439ca1f0e" testName="Validate_with_negative_integer_should_be_invalid" computerName="CAJENMINI" duration="00:00:00.0058726" startTime="2010-11-18T15:29:44.5957811+02:00" endTime="2010-11-18T15:29:44.6027815+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d8f9e82e-fd62-45c7-9c90-021d9a158dd6">
+      <Output>
+        <DebugTrace>System.NullReferenceException: Object reference not set to an instance of an object.
+   at EC.EntityValidationEngine.Validation.ValidationRuleBase.GetPropertyValue(ValidatableObjectBase businessObject) in D:\Development\ExcitingCode\EC Entity Validation Engine demo\EC Entity Validation Engine demo\Validation\ValidationRuleBase.cs:line 79
+   at EC.EntityValidationEngine.Validation.BusinessRules.IdentityValidationRule.Validate(ValidatableObjectBase businessObject) in D:\Development\ExcitingCode\EC Entity Validation Engine demo\EC Entity Validation Engine demo\Validation\BusinessRules\IdentityValidationRule.cs:line 44
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3b0bf03b-a557-413c-9795-3c4614df8ffe" testId="4ee4bdbf-3fb2-9b9e-9045-b784ad7764ec" testName="Validate_with_positive_integer_should_be_valid" computerName="CAJENMINI" duration="00:00:00.0039608" startTime="2010-11-18T15:29:44.6047816+02:00" endTime="2010-11-18T15:29:44.6137822+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3b0bf03b-a557-413c-9795-3c4614df8ffe">
+      <Output>
+        <DebugTrace>System.NullReferenceException: Object reference not set to an instance of an object.
+   at EC.EntityValidationEngine.Validation.ValidationRuleBase.GetPropertyValue(ValidatableObjectBase businessObject) in D:\Development\ExcitingCode\EC Entity Validation Engine demo\EC Entity Validation Engine demo\Validation\ValidationRuleBase.cs:line 79
+   at EC.EntityValidationEngine.Validation.BusinessRules.IdentityValidationRule.Validate(ValidatableObjectBase businessObject) in D:\Development\ExcitingCode\EC Entity Validation Engine demo\EC Entity Validation Engine demo\Validation\BusinessRules\IdentityValidationRule.cs:line 44
+</DebugTrace>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. </Message>
+          <StackTrace>   at ValidationEngineTests.BusinessObjects.CustomerEntityTest.Validate_with_positive_integer_should_be_valid() in D:\Development\ExcitingCode\EC Entity Validation Engine demo\ValidationEngineTests\BusinessObjects\CustomerEntityTest.cs:line 15
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="959f5b4c-8001-4b64-a7ab-92b38522b5ac" testId="4ec799e2-1c8e-3017-d90f-30d351e22019" testName="Validate_with_zero_should_be_valid" computerName="CAJENMINI" duration="00:00:00.0034483" startTime="2010-11-18T15:29:44.6207826+02:00" endTime="2010-11-18T15:29:44.6247828+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="959f5b4c-8001-4b64-a7ab-92b38522b5ac">
+      <Output>
+        <DebugTrace>System.NullReferenceException: Object reference not set to an instance of an object.
+   at EC.EntityValidationEngine.Validation.ValidationRuleBase.GetPropertyValue(ValidatableObjectBase businessObject) in D:\Development\ExcitingCode\EC Entity Validation Engine demo\EC Entity Validation Engine demo\Validation\ValidationRuleBase.cs:line 79
+   at EC.EntityValidationEngine.Validation.BusinessRules.IdentityValidationRule.Validate(ValidatableObjectBase businessObject) in D:\Development\ExcitingCode\EC Entity Validation Engine demo\EC Entity Validation Engine demo\Validation\BusinessRules\IdentityValidationRule.cs:line 44
+</DebugTrace>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. </Message>
+          <StackTrace>   at ValidationEngineTests.BusinessObjects.CustomerEntityTest.Validate_with_zero_should_be_valid() in D:\Development\ExcitingCode\EC Entity Validation Engine demo\ValidationEngineTests\BusinessObjects\CustomerEntityTest.cs:line 50
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2f49ff5e-1bf3-494c-8584-3af74e9d6a72" testId="2b1f701b-dcc5-79a3-5f1b-3f8b88617b22" testName="Validate_Identity_type_of_guid_with_empty_guid_validation_should_be_invalid" computerName="CAJENMINI" duration="00:00:00.0021320" startTime="2010-11-18T15:29:44.6487842+02:00" endTime="2010-11-18T15:29:44.6527844+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2f49ff5e-1bf3-494c-8584-3af74e9d6a72">
+    </UnitTestResult>
+    <UnitTestResult executionId="47dfdcb0-cd78-4eb3-ae93-e00ebc8e7631" testId="c85756af-d8df-309a-718b-1db3cb2f0957" testName="Validate_Identity_type_of_guid_with_generated_guid_validation_should_be_valid" computerName="CAJENMINI" duration="00:00:00.0014418" startTime="2010-11-18T15:29:44.6577847+02:00" endTime="2010-11-18T15:29:44.6607849+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="47dfdcb0-cd78-4eb3-ae93-e00ebc8e7631">
+    </UnitTestResult>
+    <UnitTestResult executionId="8dee4ec3-421c-4eb5-a6ba-5bf57dd343e1" testId="8be068d6-4645-00ea-3854-df9a2dc75d10" testName="Validate_Identity_type_of_integer_with_0_value_validation_should_be_valid" computerName="CAJENMINI" duration="00:00:00.0026113" startTime="2010-11-18T15:29:44.6627850+02:00" endTime="2010-11-18T15:29:44.6677853+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8dee4ec3-421c-4eb5-a6ba-5bf57dd343e1">
+    </UnitTestResult>
+    <UnitTestResult executionId="27f02f1d-001d-4e48-9404-6b5b9074d941" testId="1b05c7be-991f-7138-4ea7-1bf9c9cd13a5" testName="Validate_Identity_type_of_integer_with_negative_value_validation_should_return_be_invalid" computerName="CAJENMINI" duration="00:00:00.0022733" startTime="2010-11-18T15:29:44.6707854+02:00" endTime="2010-11-18T15:29:44.6747857+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="27f02f1d-001d-4e48-9404-6b5b9074d941">
+    </UnitTestResult>
+    <UnitTestResult executionId="e2e148b0-3326-4754-ab09-6b0367fdf718" testId="d48827ce-85ae-a1ab-89c8-074dbccd0ab5" testName="Validate_Identity_type_of_integer_with_postive_value_validation_should_be_valid" computerName="CAJENMINI" duration="00:00:00.0027258" startTime="2010-11-18T15:29:44.6767858+02:00" endTime="2010-11-18T15:29:44.6807860+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e2e148b0-3326-4754-ab09-6b0367fdf718">
+    </UnitTestResult>
+    <UnitTestResult executionId="578ba36f-7daa-4536-8ef4-df9378f51d57" testId="428a0973-3a79-a17c-d810-a7d77f163454" testName="Validate_empty_property_type_of_string_with_any_value_should_be_invalid" computerName="CAJENMINI" duration="00:00:00.0020649" startTime="2010-11-18T15:29:44.6857863+02:00" endTime="2010-11-18T15:29:44.6897865+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="578ba36f-7daa-4536-8ef4-df9378f51d57">
+    </UnitTestResult>
+    <UnitTestResult executionId="5dd28744-0544-4c44-875b-8946abbda179" testId="7771b7ca-1f26-c65b-0242-1406562d444a" testName="Validate_empty_property_type_of_string_with_empty_expression_should_be_invalid" computerName="CAJENMINI" duration="00:00:00.0046344" startTime="2010-11-18T15:29:44.6937867+02:00" endTime="2010-11-18T15:29:44.7007871+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5dd28744-0544-4c44-875b-8946abbda179">
+      <Output>
+        <DebugTrace>System.ArgumentException: Expression value is not set. Currently RegexValidationRule does not support empty validation expression.
+   at EC.EntityValidationEngine.Validation.BusinessRules.RegexValidationRule.Validate(ValidatableObjectBase businessObject) in D:\Development\ExcitingCode\EC Entity Validation Engine demo\EC Entity Validation Engine demo\Validation\BusinessRules\RegexValidationRule.cs:line 63
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5786f069-a00e-44db-8ba5-a47879959545" testId="28338078-4d35-b7ed-4447-2b91687f6a97" testName="Validate_property_type_of_string_with_any_value_should_be_valid" computerName="CAJENMINI" duration="00:00:00.0013810" startTime="2010-11-18T15:29:44.7047874+02:00" endTime="2010-11-18T15:29:44.7077875+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5786f069-a00e-44db-8ba5-a47879959545">
+    </UnitTestResult>
+    <UnitTestResult executionId="0b3606e7-3df9-44e7-a697-25cf376c7e93" testId="2a3ed8ce-e9b2-d37a-a29a-ca2b7c0638d6" testName="Validate_property_type_of_string_with_empty_expression_should_be_invalid" computerName="CAJENMINI" duration="00:00:00.0032651" startTime="2010-11-18T15:29:44.7107877+02:00" endTime="2010-11-18T15:29:44.7147879+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0b3606e7-3df9-44e7-a697-25cf376c7e93">
+      <Output>
+        <DebugTrace>System.ArgumentException: Expression value is not set. Currently RegexValidationRule does not support empty validation expression.
+   at EC.EntityValidationEngine.Validation.BusinessRules.RegexValidationRule.Validate(ValidatableObjectBase businessObject) in D:\Development\ExcitingCode\EC Entity Validation Engine demo\EC Entity Validation Engine demo\Validation\BusinessRules\RegexValidationRule.cs:line 63
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2c9d3ade-4b5e-4003-a3bf-72aba5279f02" testId="585bace6-6844-f6af-5cfe-21dcab184ffd" testName="Get_detailed_error_message_with_custom_message_should_return_defined_custom_message" computerName="CAJENMINI" duration="00:00:00.0047829" startTime="2010-11-18T15:29:44.7337890+02:00" endTime="2010-11-18T15:29:44.7627907+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2c9d3ade-4b5e-4003-a3bf-72aba5279f02">
+    </UnitTestResult>
+    <UnitTestResult executionId="6eee87fe-fdba-4c90-a828-c388158bb5e2" testId="a3b68e13-b1a2-2ab1-0624-177a6558a465" testName="Get_detailer_error_message_with_default_error_message" computerName="CAJENMINI" duration="00:00:00.0045760" startTime="2010-11-18T15:29:44.7857920+02:00" endTime="2010-11-18T15:29:44.8097934+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6eee87fe-fdba-4c90-a828-c388158bb5e2">
+    </UnitTestResult>
+    <UnitTestResult executionId="693951ba-61a5-4137-83a3-551c31016c45" testId="175a2262-5f6b-035b-0689-c77700c4b2af" testName="Add_new_rule_to_entity_and_it_is_attached_to_rule_list" computerName="CAJENMINI" duration="00:00:00.7501425" startTime="2010-11-18T15:29:44.8137936+02:00" endTime="2010-11-18T15:29:45.5648366+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="693951ba-61a5-4137-83a3-551c31016c45">
+    </UnitTestResult>
+    <UnitTestResult executionId="7f0354c1-3879-40d3-9c6b-f7037857c50a" testId="bf2e6db4-e816-74eb-de61-c5d12281291a" testName="Validate_business_entity_with_mocked_validation_rule_should_be_invalid_and_new_validation_error_should_be_added_to_the_entity" computerName="CAJENMINI" duration="00:00:00.0298439" startTime="2010-11-18T15:29:45.5678367+02:00" endTime="2010-11-18T15:29:45.5988385+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7f0354c1-3879-40d3-9c6b-f7037857c50a">
+    </UnitTestResult>
+    <UnitTestResult executionId="53916fbc-76df-4e9b-b3ed-0ab3bed65e89" testId="abb2acfb-de92-0280-d1cd-8dc4ac1cc3c6" testName="Validate_business_entity_with_mocked_validation_rule_should_be_valid" computerName="CAJENMINI" duration="00:00:00.0038534" startTime="2010-11-18T15:29:45.6008386+02:00" endTime="2010-11-18T15:29:45.6068390+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="53916fbc-76df-4e9b-b3ed-0ab3bed65e89">
+    </UnitTestResult>
+    <UnitTestResult executionId="a7710215-c6c9-4279-a3da-45613f32a17f" testId="16af2272-5959-6399-6a7e-40f5cd01cff4" testName="Validate_business_entitys_Id_property_with_mocked_validation_rule_should_be_invalid_and_new_validation_error_should_be_added_to_the_entity" computerName="CAJENMINI" duration="00:00:00.0032486" startTime="2010-11-18T15:29:45.6178396+02:00" endTime="2010-11-18T15:29:45.6228399+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a7710215-c6c9-4279-a3da-45613f32a17f">
+    </UnitTestResult>
+    <UnitTestResult executionId="9c3a027c-a22f-48d8-862c-e94f7a21f55e" testId="5ab84a24-a2b8-c1c0-dc44-d63064ed191c" testName="Validate_business_entitys_ID_property_with_mocked_validation_rule_should_be_valid" computerName="CAJENMINI" duration="00:00:00.0068588" startTime="2010-11-18T15:29:45.6298403+02:00" endTime="2010-11-18T15:29:45.6378407+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9c3a027c-a22f-48d8-862c-e94f7a21f55e">
+    </UnitTestResult>
+    <UnitTestResult executionId="8c601833-ee16-4d3d-8f16-af63a00e70f1" testId="ca18ef9f-2acd-41f6-d6c0-d19c0f3c53f0" testName="Validate_business_entitys_Name_property_without_business_rule_attached_to_it_should_be_valid" computerName="CAJENMINI" duration="00:00:00.0019117" startTime="2010-11-18T15:29:45.6408409+02:00" endTime="2010-11-18T15:29:45.6448411+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8c601833-ee16-4d3d-8f16-af63a00e70f1">
+    </UnitTestResult>
+  </Results>
+</TestRun>

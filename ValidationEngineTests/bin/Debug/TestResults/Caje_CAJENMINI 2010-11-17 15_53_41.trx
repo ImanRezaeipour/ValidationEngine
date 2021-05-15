@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e55ed982-09d8-4c8d-8302-34bbb293fed6" name="Caje@CAJENMINI 2010-11-17 15:53:41" runUser="CajenMini\Caje" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="74c20c05-f50f-4bcf-9ac8-c4ec1b633eca">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Caje_CAJENMINI 2010-11-17 15_53_41" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-11-17T15:53:41.6896440+02:00" queuing="2010-11-17T15:53:43.4599285+02:00" start="2010-11-17T15:53:44.9592238+02:00" finish="2010-11-17T15:54:00.1095438+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Validate_property_by_name_with_negative_integer_should_be_invalid" storage="d:\development\excitingcode\ec entity validation engine demo\validationenginetests\bin\debug\validationenginetests.dll" id="a1a13cff-fde0-c516-bf6d-c6adc6a5cb6b">
+      <Execution timeOut="1800000" id="cd5eb865-cec1-4cbb-8b48-f5645b7befd6" />
+      <TestMethod codeBase="D:/Development/ExcitingCode/EC Entity Validation Engine demo/ValidationEngineTests/bin/Debug/ValidationEngineTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ValidationEngineTests.BusinessObjects.CustomerEntityTest, ValidationEngineTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Validate_property_by_name_with_negative_integer_should_be_invalid" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="a1a13cff-fde0-c516-bf6d-c6adc6a5cb6b" executionId="cd5eb865-cec1-4cbb-8b48-f5645b7befd6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="cd5eb865-cec1-4cbb-8b48-f5645b7befd6" testId="a1a13cff-fde0-c516-bf6d-c6adc6a5cb6b" testName="Validate_property_by_name_with_negative_integer_should_be_invalid" computerName="CAJENMINI" duration="00:00:13.8553150" startTime="2010-11-17T15:53:45.3482408+02:00" endTime="2010-11-17T15:53:59.6857722+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cd5eb865-cec1-4cbb-8b48-f5645b7befd6">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7c5619e1-ab8b-48dd-9135-129e1b43c042" name="Caje@CAJENMINI 2010-11-17 16:10:14" runUser="CajenMini\Caje" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="74c20c05-f50f-4bcf-9ac8-c4ec1b633eca">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Caje_CAJENMINI 2010-11-17 16_10_14" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-11-17T16:10:14.2357561+02:00" queuing="2010-11-17T16:10:15.1930234+02:00" start="2010-11-17T16:10:16.3345678+02:00" finish="2010-11-17T16:10:37.8222680+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Validate_business_entitys_Name_property_without_business_rule_attached_to_it_should_be_valid" storage="d:\development\excitingcode\ec entity validation engine demo\validationenginetests\bin\debug\validationenginetests.dll" id="ca18ef9f-2acd-41f6-d6c0-d19c0f3c53f0">
+      <Execution timeOut="1800000" id="34739d16-97d1-48e0-8105-2d92a1a6c963" />
+      <TestMethod codeBase="D:/Development/ExcitingCode/EC Entity Validation Engine demo/ValidationEngineTests/bin/Debug/ValidationEngineTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ValidationEngineTests.Validation.ValidableObjectBaseTest, ValidationEngineTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Validate_business_entitys_Name_property_without_business_rule_attached_to_it_should_be_valid" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="ca18ef9f-2acd-41f6-d6c0-d19c0f3c53f0" executionId="34739d16-97d1-48e0-8105-2d92a1a6c963" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="34739d16-97d1-48e0-8105-2d92a1a6c963" testId="ca18ef9f-2acd-41f6-d6c0-d19c0f3c53f0" testName="Validate_business_entitys_Name_property_without_business_rule_attached_to_it_should_be_valid" computerName="CAJENMINI" duration="00:00:20.6198899" startTime="2010-11-17T16:10:16.6810850+02:00" endTime="2010-11-17T16:10:37.5837591+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="34739d16-97d1-48e0-8105-2d92a1a6c963">
+    </UnitTestResult>
+  </Results>
+</TestRun>

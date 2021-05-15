@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="688db585-6c94-49bf-aed1-fba7ecd98140" name="Caje@CAJENMINI 2010-11-17 16:14:04" runUser="CajenMini\Caje" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="74c20c05-f50f-4bcf-9ac8-c4ec1b633eca">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Caje_CAJENMINI 2010-11-17 16_14_04" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-11-17T16:14:04.7004869+02:00" queuing="2010-11-17T16:14:05.4320111+02:00" start="2010-11-17T16:14:06.1830540+02:00" finish="2010-11-17T16:14:07.9923564+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Validate_business_entitys_Id_property_with_mocked_validation_rule_should_be_invalid_and_new_validation_error_should_be_added_to_the_entity" storage="d:\development\excitingcode\ec entity validation engine demo\validationenginetests\bin\debug\validationenginetests.dll" id="16af2272-5959-6399-6a7e-40f5cd01cff4">
+      <Execution timeOut="1800000" id="696f4f42-68d9-4a64-be07-4f0761f70a33" />
+      <TestMethod codeBase="D:/Development/ExcitingCode/EC Entity Validation Engine demo/ValidationEngineTests/bin/Debug/ValidationEngineTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ValidationEngineTests.Validation.ValidableObjectBaseTest, ValidationEngineTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Validate_business_entitys_Id_property_with_mocked_validation_rule_should_be_invalid_and_new_validation_error_should_be_added_to_the_entity" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="16af2272-5959-6399-6a7e-40f5cd01cff4" executionId="696f4f42-68d9-4a64-be07-4f0761f70a33" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="696f4f42-68d9-4a64-be07-4f0761f70a33" testId="16af2272-5959-6399-6a7e-40f5cd01cff4" testName="Validate_business_entitys_Id_property_with_mocked_validation_rule_should_be_invalid_and_new_validation_error_should_be_added_to_the_entity" computerName="CAJENMINI" duration="00:00:01.1757015" startTime="2010-11-17T16:14:06.4790710+02:00" endTime="2010-11-17T16:14:07.8291009+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="696f4f42-68d9-4a64-be07-4f0761f70a33">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsFalse failed. </Message>
+          <StackTrace>   at ValidationEngineTests.Validation.ValidableObjectBaseTest.Validate_business_entitys_Id_property_with_mocked_validation_rule_should_be_invalid_and_new_validation_error_should_be_added_to_the_entity() in D:\Development\ExcitingCode\EC Entity Validation Engine demo\ValidationEngineTests\Validation\ValidableObjectBaseTest.cs:line 53
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

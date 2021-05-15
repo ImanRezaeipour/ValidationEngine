@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EC Entity Validation Engine demo", "EC Entity Validation Engine demo\EC Entity Validation Engine demo.csproj", "{F37111B1-C7FA-41EA-8E0F-A7BAC8BF93E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidationEngineTests", "ValidationEngineTests\ValidationEngineTests.csproj", "{5D04C433-CDE7-4ECB-A3F2-491BF9402943}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{076E6849-21ED-48B7-90C7-933F73D48544}"
+	ProjectSection(SolutionItems) = preProject
+		EC Entity Validation Engine demo.vsmdi = EC Entity Validation Engine demo.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib", "Lib\Lib.csproj", "{F62E7D9C-0D0D-46E7-9112-23D9E09F3850}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = EC Entity Validation Engine demo.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F37111B1-C7FA-41EA-8E0F-A7BAC8BF93E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F37111B1-C7FA-41EA-8E0F-A7BAC8BF93E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F37111B1-C7FA-41EA-8E0F-A7BAC8BF93E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F37111B1-C7FA-41EA-8E0F-A7BAC8BF93E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D04C433-CDE7-4ECB-A3F2-491BF9402943}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D04C433-CDE7-4ECB-A3F2-491BF9402943}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D04C433-CDE7-4ECB-A3F2-491BF9402943}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D04C433-CDE7-4ECB-A3F2-491BF9402943}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F62E7D9C-0D0D-46E7-9112-23D9E09F3850}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F62E7D9C-0D0D-46E7-9112-23D9E09F3850}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F62E7D9C-0D0D-46E7-9112-23D9E09F3850}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F62E7D9C-0D0D-46E7-9112-23D9E09F3850}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

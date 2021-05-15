@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="48d3be0c-4496-4e1d-b939-f31ea3c7c45f" name="Caje@CAJENMINI 2010-11-17 16:02:09" runUser="CajenMini\Caje" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="74c20c05-f50f-4bcf-9ac8-c4ec1b633eca">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Caje_CAJENMINI 2010-11-17 16_02_09" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-11-17T16:02:09.1335625+02:00" queuing="2010-11-17T16:02:09.8675800+02:00" start="2010-11-17T16:02:10.9298794+02:00" finish="2010-11-17T16:02:12.7411741+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="6" executed="6" passed="6" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Validate_with_negative_integer_should_be_invalid" storage="d:\development\excitingcode\ec entity validation engine demo\validationenginetests\bin\debug\validationenginetests.dll" id="0999911f-b63f-b651-77d2-ac6439ca1f0e">
+      <Execution timeOut="1800000" id="767d790c-9716-48a8-812f-af29f898591f" />
+      <TestMethod codeBase="D:/Development/ExcitingCode/EC Entity Validation Engine demo/ValidationEngineTests/bin/Debug/ValidationEngineTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ValidationEngineTests.BusinessObjects.CustomerEntityTest, ValidationEngineTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Validate_with_negative_integer_should_be_invalid" />
+    </UnitTest>
+    <UnitTest name="Validate_with_zero_should_be_valid" storage="d:\development\excitingcode\ec entity validation engine demo\validationenginetests\bin\debug\validationenginetests.dll" id="4ec799e2-1c8e-3017-d90f-30d351e22019">
+      <Execution timeOut="1800000" id="39f11606-38ca-4535-86d6-210f49dda204" />
+      <TestMethod codeBase="D:/Development/ExcitingCode/EC Entity Validation Engine demo/ValidationEngineTests/bin/Debug/ValidationEngineTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ValidationEngineTests.BusinessObjects.CustomerEntityTest, ValidationEngineTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Validate_with_zero_should_be_valid" />
+    </UnitTest>
+    <UnitTest name="Validate_property_by_name_with_positive_integer_should_be_valid" storage="d:\development\excitingcode\ec entity validation engine demo\validationenginetests\bin\debug\validationenginetests.dll" id="2e9453f1-a56e-4022-9115-f9b55d663bb8">
+      <Execution timeOut="1800000" id="fe20d3b7-02ed-4cff-ae62-7281f5cff6d3" />
+      <TestMethod codeBase="D:/Development/ExcitingCode/EC Entity Validation Engine demo/ValidationEngineTests/bin/Debug/ValidationEngineTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ValidationEngineTests.BusinessObjects.CustomerEntityTest, ValidationEngineTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Validate_property_by_name_with_positive_integer_should_be_valid" />
+    </UnitTest>
+    <UnitTest name="Validate_property_by_name_with_negative_integer_should_be_invalid" storage="d:\development\excitingcode\ec entity validation engine demo\validationenginetests\bin\debug\validationenginetests.dll" id="a1a13cff-fde0-c516-bf6d-c6adc6a5cb6b">
+      <Execution timeOut="1800000" id="85edf03d-1fa3-446f-b8da-cb3fc187b5c4" />
+      <TestMethod codeBase="D:/Development/ExcitingCode/EC Entity Validation Engine demo/ValidationEngineTests/bin/Debug/ValidationEngineTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ValidationEngineTests.BusinessObjects.CustomerEntityTest, ValidationEngineTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Validate_property_by_name_with_negative_integer_should_be_invalid" />
+    </UnitTest>
+    <UnitTest name="Validate_with_positive_integer_should_be_valid" storage="d:\development\excitingcode\ec entity validation engine demo\validationenginetests\bin\debug\validationenginetests.dll" id="4ee4bdbf-3fb2-9b9e-9045-b784ad7764ec">
+      <Execution timeOut="1800000" id="9d3607da-69ed-4a40-be66-37aeeb22d035" />
+      <TestMethod codeBase="D:/Development/ExcitingCode/EC Entity Validation Engine demo/ValidationEngineTests/bin/Debug/ValidationEngineTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ValidationEngineTests.BusinessObjects.CustomerEntityTest, ValidationEngineTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Validate_with_positive_integer_should_be_valid" />
+    </UnitTest>
+    <UnitTest name="Validate_property_by_name_with_zero_should_be_valid" storage="d:\development\excitingcode\ec entity validation engine demo\validationenginetests\bin\debug\validationenginetests.dll" id="dc5215bc-e70d-f9e5-a6e2-efba78fa7dca">
+      <Execution timeOut="1800000" id="697b8bcb-716e-45d8-aff4-96a20bc8f6b7" />
+      <TestMethod codeBase="D:/Development/ExcitingCode/EC Entity Validation Engine demo/ValidationEngineTests/bin/Debug/ValidationEngineTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ValidationEngineTests.BusinessObjects.CustomerEntityTest, ValidationEngineTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Validate_property_by_name_with_zero_should_be_valid" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="a1a13cff-fde0-c516-bf6d-c6adc6a5cb6b" executionId="85edf03d-1fa3-446f-b8da-cb3fc187b5c4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2e9453f1-a56e-4022-9115-f9b55d663bb8" executionId="fe20d3b7-02ed-4cff-ae62-7281f5cff6d3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dc5215bc-e70d-f9e5-a6e2-efba78fa7dca" executionId="697b8bcb-716e-45d8-aff4-96a20bc8f6b7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0999911f-b63f-b651-77d2-ac6439ca1f0e" executionId="767d790c-9716-48a8-812f-af29f898591f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4ee4bdbf-3fb2-9b9e-9045-b784ad7764ec" executionId="9d3607da-69ed-4a40-be66-37aeeb22d035" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4ec799e2-1c8e-3017-d90f-30d351e22019" executionId="39f11606-38ca-4535-86d6-210f49dda204" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="85edf03d-1fa3-446f-b8da-cb3fc187b5c4" testId="a1a13cff-fde0-c516-bf6d-c6adc6a5cb6b" testName="Validate_property_by_name_with_negative_integer_should_be_invalid" computerName="CAJENMINI" duration="00:00:00.0578654" startTime="2010-11-17T16:02:12.2299085+02:00" endTime="2010-11-17T16:02:12.4369135+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="85edf03d-1fa3-446f-b8da-cb3fc187b5c4">
+    </UnitTestResult>
+    <UnitTestResult executionId="fe20d3b7-02ed-4cff-ae62-7281f5cff6d3" testId="2e9453f1-a56e-4022-9115-f9b55d663bb8" testName="Validate_property_by_name_with_positive_integer_should_be_valid" computerName="CAJENMINI" duration="00:00:00.0005835" startTime="2010-11-17T16:02:12.4419136+02:00" endTime="2010-11-17T16:02:12.4519137+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fe20d3b7-02ed-4cff-ae62-7281f5cff6d3">
+    </UnitTestResult>
+    <UnitTestResult executionId="697b8bcb-716e-45d8-aff4-96a20bc8f6b7" testId="dc5215bc-e70d-f9e5-a6e2-efba78fa7dca" testName="Validate_property_by_name_with_zero_should_be_valid" computerName="CAJENMINI" duration="00:00:00.0003837" startTime="2010-11-17T16:02:12.4554138+02:00" endTime="2010-11-17T16:02:12.4624142+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="697b8bcb-716e-45d8-aff4-96a20bc8f6b7">
+    </UnitTestResult>
+    <UnitTestResult executionId="767d790c-9716-48a8-812f-af29f898591f" testId="0999911f-b63f-b651-77d2-ac6439ca1f0e" testName="Validate_with_negative_integer_should_be_invalid" computerName="CAJENMINI" duration="00:00:00.0096581" startTime="2010-11-17T16:02:12.4654144+02:00" endTime="2010-11-17T16:02:12.5124171+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="767d790c-9716-48a8-812f-af29f898591f">
+    </UnitTestResult>
+    <UnitTestResult executionId="9d3607da-69ed-4a40-be66-37aeeb22d035" testId="4ee4bdbf-3fb2-9b9e-9045-b784ad7764ec" testName="Validate_with_positive_integer_should_be_valid" computerName="CAJENMINI" duration="00:00:00.0024281" startTime="2010-11-17T16:02:12.5264179+02:00" endTime="2010-11-17T16:02:12.5574196+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9d3607da-69ed-4a40-be66-37aeeb22d035">
+    </UnitTestResult>
+    <UnitTestResult executionId="39f11606-38ca-4535-86d6-210f49dda204" testId="4ec799e2-1c8e-3017-d90f-30d351e22019" testName="Validate_with_zero_should_be_valid" computerName="CAJENMINI" duration="00:00:00.0005116" startTime="2010-11-17T16:02:12.5664202+02:00" endTime="2010-11-17T16:02:12.5714204+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="39f11606-38ca-4535-86d6-210f49dda204">
+    </UnitTestResult>
+  </Results>
+</TestRun>

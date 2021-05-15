@@ -1,0 +1,8 @@
+C:\Users\Caje\Desktop\EC Entity Validation Engine demo\ValidationEngineTests\bin\Debug\ValidationEngineTests.dll
+C:\Users\Caje\Desktop\EC Entity Validation Engine demo\ValidationEngineTests\bin\Debug\ValidationEngineTests.pdb
+C:\Users\Caje\Desktop\EC Entity Validation Engine demo\ValidationEngineTests\bin\Debug\EC Entity Validation Engine demo.dll
+C:\Users\Caje\Desktop\EC Entity Validation Engine demo\ValidationEngineTests\bin\Debug\Moq.dll
+C:\Users\Caje\Desktop\EC Entity Validation Engine demo\ValidationEngineTests\bin\Debug\EC Entity Validation Engine demo.pdb
+C:\Users\Caje\Desktop\EC Entity Validation Engine demo\ValidationEngineTests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Caje\Desktop\EC Entity Validation Engine demo\ValidationEngineTests\obj\Debug\ValidationEngineTests.dll
+C:\Users\Caje\Desktop\EC Entity Validation Engine demo\ValidationEngineTests\obj\Debug\ValidationEngineTests.pdb
